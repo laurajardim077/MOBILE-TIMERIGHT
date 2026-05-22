@@ -70,9 +70,6 @@ export default function SignUp() {
           </TouchableOpacity>
 
           <Text style={styles.title}>Criar conta</Text>
-          <Text style={styles.subtitle}>
-            Ganhe 100 pontos de boas-vindas ao se cadastrar ✨
-          </Text>
 
           {error && (
             <View style={styles.errorBox} testID="sign-up-error">
