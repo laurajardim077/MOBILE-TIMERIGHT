@@ -1,0 +1,135 @@
+{
+  "project_info": {
+    "name": "TimeRight",
+    "type": "React Native Expo Mobile App",
+    "theme": "Dark Mode (Primary), Premium, Elegant, Minimalist",
+    "archetype": "Archetype 5: Jewel & Luxury"
+  },
+  "colors": {
+    "background": {
+      "primary": "#0A0A0A",
+      "secondary": "#141414",
+      "surface": "#1E1E1E",
+      "glass": "rgba(30, 30, 30, 0.65)"
+    },
+    "brand": {
+      "primary": "#D4AF37",
+      "primary_light": "#F2C94C",
+      "primary_dark": "#AA8C2C"
+    },
+    "text": {
+      "primary": "#FFFFFF",
+      "secondary": "#A1A1AA",
+      "disabled": "#52525B",
+      "inverse": "#000000"
+    },
+    "border": {
+      "default": "#27272A",
+      "focus": "#D4AF37"
+    },
+    "status": {
+      "success": "#10B981",
+      "error": "#EF4444",
+      "warning": "#F59E0B"
+    }
+  },
+  "typography": {
+    "font_family": {
+      "heading": "Playfair Display",
+      "body": "Manrope"
+    },
+    "sizes": {
+      "h1": "text-4xl tracking-tight font-bold",
+      "h2": "text-3xl tracking-tight font-semibold",
+      "h3": "text-2xl tracking-tight font-medium",
+      "h4": "text-xl font-medium",
+      "body_lg": "text-lg",
+      "body": "text-base",
+      "body_sm": "text-sm",
+      "caption": "text-xs tracking-wide uppercase"
+    }
+  },
+  "spacing_and_layout": {
+    "screen_padding": "px-6 py-4",
+    "component_gap": "gap-4",
+    "section_gap": "gap-8",
+    "border_radius": {
+      "sm": "rounded-lg",
+      "md": "rounded-xl",
+      "lg": "rounded-2xl",
+      "xl": "rounded-3xl",
+      "full": "rounded-full"
+    }
+  },
+  "components": {
+    "buttons": {
+      "primary": "bg-[#D4AF37] rounded-full py-4 px-8 items-center justify-center shadow-[0_4px_14px_rgba(212,175,55,0.3)]",
+      "primary_text": "text-black font-bold text-base",
+      "secondary": "bg-[#1E1E1E] rounded-full py-4 px-8 items-center justify-center border border-[#27272A]",
+      "secondary_text": "text-white font-medium text-base",
+      "outline": "border border-[#D4AF37] rounded-full py-4 px-8 items-center justify-center",
+      "outline_text": "text-[#D4AF37] font-medium text-base"
+    },
+    "inputs": {
+      "container": "bg-[#141414] rounded-xl border border-[#27272A] px-4 py-3",
+      "focused": "border-[#D4AF37] bg-[#1A1A1A]",
+      "text": "text-white text-base font-body",
+      "placeholder": "text-[#A1A1AA]"
+    },
+    "cards": {
+      "service_card": "bg-[#141414] rounded-2xl p-4 border border-[#27272A] flex-row items-center",
+      "professional_card": "bg-[#141414] rounded-2xl p-4 border border-[#27272A] items-center text-center",
+      "featured_card": "bg-[#1E1E1E] rounded-3xl overflow-hidden border border-[#27272A]"
+    },
+    "bottom_sheet": {
+      "container": "bg-[#141414] rounded-t-3xl border-t border-[#27272A]",
+      "handle": "w-12 h-1 bg-[#52525B] rounded-full mt-3 mb-5 self-center"
+    },
+    "calendar": {
+      "theme": "dark",
+      "selected_bg": "#D4AF37",
+      "selected_text": "#000000",
+      "today_text": "#D4AF37",
+      "text_color": "#FFFFFF"
+    }
+  },
+  "animations": {
+    "page_transition": "Slide from right or bottom (React Navigation default for iOS)",
+    "buttons": "Opacity feedback (ActiveOpacity 0.7) or scale down slightly on press",
+    "modals": "Smooth slide up from bottom (Bottom Sheet behavior)",
+    "splash": "Fade in logo, hold for 2s, scale up and fade out to Onboarding"
+  },
+  "media_urls": {
+    "splash_logo_bg": {
+      "url": "https://images.pexels.com/photos/7195812/pexels-photo-7195812.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "description": "Dark aesthetic salon interior for splash screen background overlay."
+    },
+    "home_featured_banner": {
+      "url": "https://images.unsplash.com/photo-1560066984-138dadb4c035?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzOTB8MHwxfHNlYXJjaHwyfHxsdXh1cnklMjBoYWlyJTIwc2Fsb24lMjBpbnRlcmlvcnxlbnwwfHx8fDE3Nzk0NTk3Nzd8MA&ixlib=rb-4.1.0&q=85",
+      "description": "Luxury hair salon interior for home banner."
+    },
+    "stylist_1": {
+      "url": "https://images.pexels.com/photos/8834017/pexels-photo-8834017.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "description": "Professional hairdresser in a modern salon."
+    },
+    "stylist_2": {
+      "url": "https://images.unsplash.com/photo-1595475716260-0f2c35f5a40f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMzl8MHwxfHNlYXJjaHw0fHxiZWF1dHklMjBzYWxvbiUyMHN0eWxpc3QlMjBwb3J0cmFpdHxlbnwwfHx8fDE3Nzk0NTk3Nzd8MA&ixlib=rb-4.1.0&q=85",
+      "description": "Woman sitting on a chair, stylist portrait."
+    },
+    "service_spa": {
+      "url": "https://images.unsplash.com/photo-1639162906614-0603b0ae95fd?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1MDZ8MHwxfHNlYXJjaHw0fHxzcGElMjB0cmVhdG1lbnQlMjBtYXNzYWdlfGVufDB8fHx8MTc3OTQ1OTc3N3ww&ixlib=rb-4.1.0&q=85",
+      "description": "Spa treatment massage service image."
+    }
+  },
+  "instructions_to_main_agent": [
+    "CRITICAL: This is a REACT NATIVE EXPO app. DO NOT use standard DOM elements like <div>, <span>, <button>, or HTML Shadcn components.",
+    "Use standard React Native components: <View>, <Text>, <TouchableOpacity>, <ScrollView>, <FlatList>, <Image>.",
+    "For styling, you can use NativeWind (Tailwind for React Native) if configured, or React Native StyleSheet mapped to the provided hex colors.",
+    "For icons, use `lucide-react-native` with white or gold (#D4AF37) colors depending on active state.",
+    "Dark Mode is the PRIMARY and default theme. The background must be #0A0A0A.",
+    "Use 'react-native-calendars' for the booking date selection, matching the dark/gold theme.",
+    "All interactive elements MUST include `testID` property (equivalent to `data-testid` in web) for testing, e.g., `testID=\"login-submit-button\"`.",
+    "Component Corners: Ensure prominent use of rounded-xl (16px) or rounded-2xl (24px) for cards, and rounded-full for primary buttons.",
+    "Navigation: Assume standard React Navigation stack/tabs. Bottom tab bar should be dark (#141414) with Gold active icon colors."
+  ]
+}
