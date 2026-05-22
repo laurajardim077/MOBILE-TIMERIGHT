@@ -1,0 +1,11 @@
+{
+  "name": "MOBILE-TIMERIGHT",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "cd frontend && npm start",
+    "install": "cd frontend && npm install",
+    "web": "cd frontend && npm run web",
+    "android": "cd frontend && npm run android",
+    "ios": "cd frontend && npm run ios"
+  }
+}
