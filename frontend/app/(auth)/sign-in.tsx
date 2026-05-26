@@ -2,6 +2,7 @@ import { Ionicons } from "@expo/vector-icons";
 import { Link, useRouter } from "expo-router";
 import React, { useState } from "react";
 import {
+  Image,
   KeyboardAvoidingView,
   Platform,
   ScrollView,
@@ -54,9 +55,7 @@ export default function SignIn() {
       >
         <ScrollView contentContainerStyle={styles.scroll} keyboardShouldPersistTaps="handled">
           <View style={styles.header}>
-            <View style={styles.logo}>
-              <Ionicons name="time" size={32} color={colors.black} />
-            </View>
+            <Image source={require("@/assets/images/icon.png")} style={styles.logo} resizeMode="contain" />
             <Text style={styles.title}>Bem-vinda de volta</Text>
             <Text style={styles.subtitle}>
               Entre para acessar seus agendamentos
@@ -134,15 +133,7 @@ const styles = StyleSheet.create({
   safe: { flex: 1, backgroundColor: colors.bg },
   scroll: { padding: spacing.xl, paddingTop: spacing.xxl },
   header: { alignItems: "center", marginBottom: spacing.xxl },
-  logo: {
-    width: 64,
-    height: 64,
-    borderRadius: 32,
-    backgroundColor: colors.gold,
-    alignItems: "center",
-    justifyContent: "center",
-    marginBottom: 16,
-  },
+  logo: { width: 120, height: 120, marginBottom: 16 },
   title: { color: colors.white, fontSize: 28, fontWeight: "800", marginBottom: 6 },
   subtitle: { color: colors.textSecondary, fontSize: 14 },
   eye: { position: "absolute", right: 14, top: 38 },
